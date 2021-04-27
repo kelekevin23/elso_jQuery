@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+main {max-width:800px;}
+* {
+    border:1px solid gray;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+ 
+
+article {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+article div:nth-child(1){
+    color:pink;
+}
+
+img{
+    width:100%
+}
+
+
+.kiemel{
+    background: lightblue;
+    cursor: grab;
+}
+
