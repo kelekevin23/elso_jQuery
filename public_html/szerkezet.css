@@ -6,6 +6,7 @@ main {max-width:800px;}
     border:1px solid gray;
     padding:5px;
     box-sizing: border-box;
+    margin :auto;
 }
 
  
@@ -28,4 +29,6 @@ img{
     background: lightblue;
     cursor: grab;
 }
-
+#Galeria{
+    text-align: center;
+}
